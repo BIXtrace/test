@@ -63,7 +63,7 @@
             height: 100%;
             z-index: -1;
             pointer-events: none;
-            opacity: 0;
+            opacity: 0.01;
             animation: confetti 5s ease-in-out infinite;
         }
 
@@ -76,7 +76,7 @@
         @keyframes slideIn {
             from {
                 transform: translateY(-100px);
-                opacity: 0;
+                opacity: 0.1;
             }
             to {
                 transform: translateY(0);
